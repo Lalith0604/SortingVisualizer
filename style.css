@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+.topic{
+    position: relative;
+    bottom: 80px;
+    height: 25vmin;
+    width: 100vmax;
+    background-color: rgb(22, 3, 116);
+    font-size: xx-large;
+    color: white;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Align bars horizontally in the center */
+    align-items: flex-end; /* Align bars at the bottom */
+    height: 300px;
+    width: 80%; /* Adjust the width as needed */
+    margin: 20px auto;
+    background-color: rgba(30, 28, 28, 0);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.bar {
+    margin: 0 2px; /* Slight margin between bars */
+    background-color: #041283;
+    width: 10px;
+}
+
+button {
+    margin-left: 10px;
+    padding: 10px;
+    background-color: #053c8a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+select {
+    padding: 5px;
+    margin-left: 10px;
+}
+
+/* Styles for the bar that is being sorted */
+.bar.active {
+    background-color: #ff5733; /* Highlight color for active elements */
+}
+
+footer{
+    position: relative;
+    top:100px;
+    height: 8vmax;
+    width: 100vmax;
+    background-color: #041283;
+    display: flex;
+}
